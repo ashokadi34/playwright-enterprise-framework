@@ -1,35 +1,44 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
+
   testDir: './tests',
+
+  timeout: 60000,
+
+  expect: {
+    timeout: 15000
+  },
+
   fullyParallel: true,
+
   retries: 1,
-  workers: 2,
 
   reporter: [
-    ['html'],
-    ['list']
+    ['html']
   ],
 
   use: {
+
     headless: true,
+
     screenshot: 'only-on-failure',
+
     video: 'retain-on-failure',
+
     trace: 'retain-on-failure'
   },
 
   projects: [
+
     {
       name: 'chromium',
-      use: {
-        ...devices['Desktop Chrome']
-      }
+      use: { ...devices['Desktop Chrome'] },
     },
+
     {
       name: 'firefox',
-      use: {
-        ...devices['Desktop Firefox']
-      }
+      use: { ...devices['Desktop Firefox'] },
     }
   ]
 });

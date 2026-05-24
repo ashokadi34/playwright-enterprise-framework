@@ -4,6 +4,8 @@ import { DashboardPage } from '../pages/DashboardPage';
 import { config } from '../utils/ConfigReader';
 
 console.log(config);
+console.log("Base URL:", config.baseUrl);
+console.log("Username:", config.username);
 
 test.describe('Login Tests', () => {
 

@@ -18,6 +18,11 @@ export class LoginPage {
   }
 
   async verifyLoginSuccess() {
+
+    await this.page.waitForURL('**/dashboard/**', {
+      timeout: 20000
+    });
+
     await expect(this.page).toHaveURL(/dashboard/);
   }
 }
