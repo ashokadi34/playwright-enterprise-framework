@@ -115,25 +115,25 @@ Framework supports:
 
 ## Playwright HTML Report
 
-![HTML Report](screenshots/report-dashboard.png)
+![HTML Report](./screenshots/report-dashboard.png)
 
 ---
 
 ## Trace Viewer
 
-![Trace Viewer](screenshots/trace-viewer.png)
+![Trace Viewer](./screenshots/trace-viewer.png)
 
 ---
 
 ## GitHub Actions CI
 
-![GitHub Actions](screenshots/github-actions.png)
+![GitHub Actions](./screenshots/github-actions.png)
 
 ---
 
 ## Framework Structure
 
-![Project Structure](screenshots/project-structure.png)
+![Project Structure](./screenshots/project-structure.png)
 
 ---
 
