@@ -111,6 +111,30 @@ Framework supports:
 - Videos
 - Trace files
 
+# Reports & Execution
+
+## Playwright HTML Report
+
+![HTML Report](screenshots/report-dashboard.png)
+
+---
+
+## Trace Viewer
+
+![Trace Viewer](screenshots/trace-viewer.png)
+
+---
+
+## GitHub Actions CI
+
+![GitHub Actions](screenshots/github-actions.png)
+
+---
+
+## Framework Structure
+
+![Project Structure](screenshots/project-structure.png)
+
 ---
 
 # CI/CD
